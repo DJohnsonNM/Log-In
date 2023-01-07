@@ -1,0 +1,51 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/74721770-056e-497c-b349-a007430817d8/resourceGroups/cloud-shell-storage-eastus/providers/Microsoft.Storage/storageAccounts/cs210032001f551ad01",
+    "name": "cs210032001f551ad01",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "eastus",
+    "tags": {
+        "ms-resource-usage": "azure-cloud-shell"
+    },
+    "properties": {
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "services": {
+                "file": {
+                    "enabled": true,
+                    "lastEnabledTime": "2023-01-07T19:01:31.5861477Z"
+                },
+                "blob": {
+                    "enabled": true,
+                    "lastEnabledTime": "2023-01-07T19:01:31.5861477Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2023-01-07T19:01:31.4455203Z",
+        "primaryEndpoints": {
+            "dfs": "https://cs210032001f551ad01.dfs.core.windows.net/",
+            "web": "https://cs210032001f551ad01.z13.web.core.windows.net/",
+            "blob": "https://cs210032001f551ad01.blob.core.windows.net/",
+            "queue": "https://cs210032001f551ad01.queue.core.windows.net/",
+            "table": "https://cs210032001f551ad01.table.core.windows.net/",
+            "file": "https://cs210032001f551ad01.file.core.windows.net/"
+        },
+        "primaryLocation": "eastus",
+        "statusOfPrimary": "available"
+    }
+}
